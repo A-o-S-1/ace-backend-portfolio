@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <meta name="description" content="Portfolio of Odey Anthony Ogar (ACE of SPADES), an early-career backend developer focused on Python, secure systems, APIs, and PropTech.">
+  <title>Odey Anthony Ogar — Backend Developer | Python, Secure Systems &amp; PropTech</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#home" aria-label="ACE of SPADES home">ACE<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span><span aria-hidden="true" class="menu-lines"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+        <a href="#interests">Focus</a><a href="#notes">Technical notes</a><a href="#contact" class="nav-contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Early-career developer · Nigeria</p>
+          <h1>Odey Anthony Ogar</h1>
+          <p class="aka">Also known as <strong>ACE of SPADES</strong></p>
+          <p class="hero-role">Backend Developer <span aria-hidden="true">|</span> Python <span aria-hidden="true">|</span> Secure Systems &amp; PropTech</p>
+          <p class="hero-intro">I’m building practical backend applications with Python, APIs, and data-focused tools. I bring an Estate Management background and hands-on ICT support experience to problems at the intersection of technology, property, and security.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">→</span></a>
+          </div>
+          <p class="hero-note">Focused on learning, building, testing, and documenting useful software.</p>
+        </div>
+        <aside class="hero-panel" aria-label="Professional snapshot">
+          <div class="panel-top"><span class="panel-label">CURRENT FOCUS</span><span class="panel-mark" aria-hidden="true">✳</span></div>
+          <div class="focus-item"><span class="focus-number">01</span><div><h2>Backend foundations</h2><p>Python APIs, data models, validation, and tests.</p></div></div>
+          <div class="focus-item"><span class="focus-number">02</span><div><h2>Secure-by-design thinking</h2><p>Reliable request handling and defensive application practices.</p></div></div>
+          <div class="focus-item"><span class="focus-number">03</span><div><h2>Property technology</h2><p>Software ideas grounded in Nigerian property data and workflows.</p></div></div>
+          <div class="panel-bottom"><span>BUILD WITH PURPOSE</span><span aria-hidden="true">↗</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-light" id="about">
+      <div class="container two-column">
+        <div><p class="eyebrow">01 / About</p><h2 class="section-heading">A practical path into backend engineering.</h2></div>
+        <div class="prose">
+          <p>I hold a B.Tech in Estate Management from the University of Cross River State, Nigeria. My experience and background include computer operations, computer laboratory management, digital technology education, basic ICT support, and introductory technical training.</p>
+          <p>That combination has shaped how I approach software: understand the real-world problem, organise information carefully, and make the tools usable for the people who depend on them. I’m now developing my backend engineering skills by building Python-based APIs and learning to test, document, and deploy them responsibly.</p>
+          <p class="honesty-note"><strong>Where I am today:</strong> an early-career developer building a demonstrable project portfolio—not claiming years of professional software-development experience.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-intro"><div><p class="eyebrow">02 / Skills</p><h2 class="section-heading">What I use and what I’m developing.</h2></div><p class="section-summary">A transparent snapshot of my current learning and practice.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-tag">PRACTICING</span><h3>Backend development</h3><ul><li>Python</li><li>REST API design and implementation</li><li>FastAPI</li><li>Request validation and error handling</li><li>Automated testing with pytest</li></ul></article>
+          <article class="skill-card"><span class="skill-tag">FOUNDATIONS</span><h3>Data and tooling</h3><ul><li>Relational database concepts</li><li>SQL and ORM fundamentals</li><li>Git and GitHub workflows</li><li>HTTP, JSON, and API documentation</li><li>Command-line development</li></ul></article>
+          <article class="skill-card"><span class="skill-tag">DEVELOPING</span><h3>Security and deployment</h3><ul><li>Secure application design</li><li>Defensive cybersecurity concepts</li><li>Environment-based configuration</li><li>Deployment and production basics</li><li>Logging and operational awareness</li></ul></article>
+          <article class="skill-card"><span class="skill-tag">DOMAIN KNOWLEDGE</span><h3>Property and ICT</h3><ul><li>Estate Management fundamentals</li><li>Property data and valuation workflows</li><li>Computer operations and lab support</li><li>Digital technology education</li><li>Introductory technical training</li></ul></article>
+        </div>
+        <p class="section-footnote">Skills reflect my current practice and learning; individual project READMEs should be consulted for exact implementation details.</p>
+      </div>
+    </section>
+
+    <section class="section section-light" id="projects">
+      <div class="container">
+        <div class="section-intro"><div><p class="eyebrow">03 / Selected work</p><h2 class="section-heading">Projects built to learn by doing.</h2></div><p class="section-summary">Small, focused backend projects around property records, incident workflows, and valuation support.</p></div>
+        <div id="project-grid" class="project-grid" aria-live="polite">
+          <p class="loading-message">Loading project details…</p>
+        </div>
+        <p class="section-footnote">Repository and demo links appear only after they are added to the site configuration. No live deployment is implied by this portfolio.</p>
+      </div>
+    </section>
+
+    <section class="section" id="interests">
+      <div class="container">
+        <p class="eyebrow">04 / Areas of interest</p><h2 class="section-heading">Useful software for real-world constraints.</h2>
+        <div class="interest-grid">
+          <article class="interest-card"><span class="interest-index">A</span><h3>Secure systems</h3><p>I’m interested in validation, clear access boundaries, safe error handling, and defensive thinking as part of building dependable applications.</p></article>
+          <article class="interest-card"><span class="interest-index">B</span><h3>Real estate technology</h3><p>My Estate Management background informs my interest in property records, valuation workflows, and tools that make property information easier to organise and interpret.</p></article>
+          <article class="interest-card"><span class="interest-index">C</span><h3>Practical African-market software</h3><p>I’m interested in modest, maintainable solutions shaped by local data, workflows, affordability, and the realities of digital adoption in Nigeria and across African markets.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="notes">
+      <div class="container notes-layout">
+        <div><p class="eyebrow">05 / Technical notes</p><h2 class="section-heading">Document the learning, not just the code.</h2></div>
+        <div class="notes-content"><p>I plan to use project READMEs and technical notes to explain design choices, setup steps, API behaviour, testing, and lessons learned. This section will link to published material when it exists.</p><div id="notes-links" class="notes-links"><p class="muted">No public technical notes have been linked yet. Add a real URL in <code>config.js</code> when one is available.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-layout">
+        <div><p class="eyebrow">06 / Contact</p><h2 class="section-heading">Let’s talk about backend development.</h2><p class="contact-copy">I’m open to relevant early-career opportunities, collaboration, and conversations about practical Python, API, security, and PropTech projects.</p></div>
+        <div class="contact-card"><p class="contact-label">EMAIL</p><a class="contact-email" href="mailto:anthonyogar61@gmail.com">anthonyogar61@gmail.com <span aria-hidden="true">↗</span></a><div id="github-contact"><p class="muted">GitHub profile link will be added when the profile URL is confirmed.</p></div><p class="contact-small">Email is the active contact method on this site. There is no contact form or message-submission service.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="wordmark footer-wordmark" href="#home">ACE<span>.</span></a><p>Odey Anthony Ogar · Backend Developer in progress</p><a href="#home" class="back-top">Back to top ↑</a><p class="copyright">© <span id="year"></span> · Built with HTML, CSS, and JavaScript.</p></div></footer>
+</body>
+</html>
